@@ -5,7 +5,7 @@ const SCBEASY = require('./scbeasy');
 
 // Initialize Express app
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 2000;
 
 // Middleware to parse request bodies
 app.use(bodyParser.urlencoded({ extended: false }));
